@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+﻿#!/usr/bin/env python
 import argparse
 import io 
 
@@ -10,6 +10,6 @@ if __name__ == '__main__':
     
     args = parser.parse_args()
     try:
-    //    print(args.numerator / args.divisor) // закоментированый коментарий
+       print(args.numerator / args.divisor) // закоментированый коментарий
     except:
         raise io.RumTimeError
